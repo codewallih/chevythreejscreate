@@ -24,7 +24,7 @@ body {
   color: #eef8ce;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-image: url(/terrain.jpg),
+  background-image: url(/bg.jpg),
     repeating-linear-gradient(
       to right,
       transparent 0 500px,
@@ -433,14 +433,7 @@ table td {
   font-size: 1.2em;
 }
 
-table tr:nth-child(odd) td {
-  background: rgba(
-    108,
-    12,
-    153,
-    0.2
-  ); /* Light gradient effect for alternating rows */
-}
+
 
 table tr:hover td {
   background: #420642; /* Highlighted row */
@@ -1029,9 +1022,9 @@ header .content-fit nav ul {
   background: conic-gradient(
     from 90deg,
     transparent,
-    #00ffff,
+    #dd930a,
     transparent,
-    #00ffff,
+    #7d01f1,
     transparent
   );
   animation: rotate-grid 10s linear infinite, tron-pulse 3s infinite alternate;
@@ -1058,7 +1051,7 @@ header .content-fit nav ul {
   z-index: -1;
 }
 
-/* 🌊 TRON MARQUEE - FLOATING CYBER TEXT */
+/*TRON MARQUEE - FLOATING CYBER TEXT */
 .tron-legacy {
   position: absolute;
   bottom: 0;
@@ -1095,7 +1088,7 @@ header .content-fit nav ul {
   }
 
   .tron-button:hover {
-    box-shadow: none 0 25px rgba(0, 255, 255, 1);
+    box-shadow: none 0 25px rgb(102, 52, 218);
   }
 }
 
@@ -1118,30 +1111,6 @@ header .content-fit nav ul {
 
 /* Enhanced Tron Legacy Styles */
 /* Tron Legacy - The Ultimate Groove Edition */
-.tron-legacy {
-  background: linear-gradient(135deg, #0a0a0a, #161616);
-  border: 3px solid #00ffff;
-  border-radius: 20px;
-  padding: 50px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 50px rgba(0, 255, 255, 0.8), 0 0 100px rgba(0, 255, 255, 0.5);
-  margin-top: 150px;
-  max-width: 90vw;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  transform-origin: center;
-
-  /* Terrain Grid Overlay */
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-  background-blend-mode: overlay;
-
-  /* GROOVY MOVEMENT */
-  animation: tron-groove 6s infinite ease-in-out;
-}
 
 /* TRON LEGACY - ULTIMATE IMMERSION */
 .tron-legacy {
@@ -1266,7 +1235,7 @@ header .content-fit nav ul {
   }
 }
 
-/* 💫 Title Flicker & Depth Shift */
+/*Title Flicker & Depth Shift */
 @keyframes tron-title-warp {
   0% {
     transform: translateY(0px);
@@ -1290,7 +1259,7 @@ header .content-fit nav ul {
   }
 }
 
-/* 🌊 Smooth Floating Marquee */
+/*Smooth Floating Marquee */
 @keyframes tron-marquee {
   0% {
     transform: translateX(100%);
@@ -1316,7 +1285,7 @@ header .content-fit nav ul {
   }
 }
 
-/* 🔄 Energy Grid Rotation */
+/* Energy Grid Rotation */
 @keyframes rotate-grid {
   from {
     transform: rotate(0deg);
@@ -1326,7 +1295,7 @@ header .content-fit nav ul {
   }
 }
 
-/* 💡 Energy Pulsation */
+/*Energy Pulsation */
 @keyframes tron-pulse {
   0% {
     box-shadow: 0 0 50px rgba(0, 255, 255, 0.7), 0 0 90px rgba(0, 255, 255, 0.5);
@@ -1336,7 +1305,7 @@ header .content-fit nav ul {
   }
 }
 
-/* 🌊 Text Wave Effect */
+/*Text Wave Effect */
 @keyframes tron-wavy-text {
   0% {
     transform: translateY(0px);
@@ -1473,7 +1442,7 @@ header .content-fit nav ul {
   margin-left: 20px;
   margin-right: -1000px; /* 👈 PUSHES IT MORE RIGHT */
   margin-bottom: 30px;
-  margin-top: -200px;
+  margin-top: -750px;
   shape-outside: inset(0%);
   clear: none;
   z-index: 5;
